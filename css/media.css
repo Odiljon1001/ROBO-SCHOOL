@@ -1,0 +1,15 @@
+.nav__card {
+    width: 160px;
+    flex-direction: column;
+    border-radius: 2px;
+    border: 1px solid #E5E5E5;
+    background: #FFF;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+}
+
+.nav__info:hover .nav__card {
+    display: flex;
+}
